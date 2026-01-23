@@ -4,25 +4,25 @@
 class Mailbase < Formula
   desc "Local-first email intelligence system with LLM-powered analysis"
   homepage "https://github.com/maxhodak/homebrew-mailbase"
-  version "0.3.1"
+  version "0.3.2"
   license :cannot_represent
 
   on_macos do
     on_intel do
-      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.1/mailbase-x86_64-apple-darwin.tar.gz"
-      sha256 "d00357d7a57ca41d683e64a8afb6eca7349154c520475bbfc45328f4b7b60ad6"
+      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.2/mailbase-x86_64-apple-darwin.tar.gz"
+      sha256 "a3a65ce156a4f7f06971ed467f3bd30666b28c625f24cae97fbdb8c7642ba7f1"
     end
 
     on_arm do
-      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.1/mailbase-aarch64-apple-darwin.tar.gz"
-      sha256 "c88d2e092db4eeb0cec8ff5c35a651a8a291e86ed2d03eebea95c12701d34d94"
+      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.2/mailbase-aarch64-apple-darwin.tar.gz"
+      sha256 "0085574f7baf2211bc90b69b27051fd650dc4767d9e75e598ca9f972351499ec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.1/mailbase-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "efd2249456ea80eddedf95256f163cd36cac02593b64ea0ec16f34716827a79e"
+      url "https://github.com/maxhodak/homebrew-mailbase/releases/download/v0.3.2/mailbase-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4b752b2d2c123d47ae1b9486552d2c91a34f0d0e593fbb17e4d7b02841f224bb"
     end
   end
 
